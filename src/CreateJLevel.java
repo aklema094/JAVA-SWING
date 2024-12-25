@@ -28,6 +28,9 @@ public class CreateJLevel extends JFrame {
          level.setForeground(Color.red);
          level.setBackground(Color.BLACK);
          level.setOpaque(true);
+         level.setToolTipText("Jlevel");
+         String s = level.getToolTipText();
+         System.out.println(s);
          con.add(level);           
     }
     
