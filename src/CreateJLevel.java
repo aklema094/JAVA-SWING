@@ -31,6 +31,7 @@ public class CreateJLevel extends JFrame {
          level.setToolTipText("Jlevel");
          String s = level.getToolTipText();
          System.out.println(s);
+         System.out.println(level.getText());
          con.add(level);           
     }
     
