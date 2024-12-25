@@ -15,13 +15,14 @@ public class CreateAndSettingJframe1 extends JFrame {
          setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          icon = new ImageIcon(getClass().getResource("chat.png"));
          this.setIconImage(icon.getImage());
-        con = this.getContentPane();
-        con.setBackground(Color.red);
-         
+         con = this.getContentPane();
+         con.setBackground(Color.red);
+    
     }
     public static void main(String[] args) {
         CreateAndSettingJframe1 frame = new CreateAndSettingJframe1();
+        frame.setResizable(true);
         
-      
+        
     }   
 }
